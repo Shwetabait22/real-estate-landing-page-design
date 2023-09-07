@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background-color: #000;
+	font-family: "Lato", sans-serif;
+}
+.services .container .row{
+	background-color: #000;
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+.section-header{
+    color: #fefafa;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #f5f1f1;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fefafa;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fcf7f7;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+
+
+.section-2 {
+    position: relative;
+  }
+  .section-2-overlay {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    top: -2rem;
+    z-index: 2;
+    left: 5%;
+    width: calc(100% - 10%);
+    -webkit-box-shadow: -1px 1px 86px -64px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 86px -64px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 86px -64px rgba(0, 0, 0, 0.75);
+  }
+  
+  .section-2-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    flex-wrap: wrap;
+  }
+  
+  .section-2-container img {
+	height: 115px;
+	width: 150px;
+  }
+ .prop-cont{
+	height: 80vh;
+	background-image: url(img/img2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ } 
+ .prop-overly{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(10, 0, 0, 0.758);
+ }
+  .section__container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 3rem 1rem;
+	color: #f5f1f1;
+  }
+  
+  .section__header {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #f7f8fb;
+	text-align: center;
+  }
+  
+  .btnn {
+	padding: 1rem 1.5rem;
+	outline: none;
+	border: none;
+	font-size: 1rem;
+	white-space: nowrap;
+	color:#ffffff;
+	background-color: #f95a47;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .deals__card img {
+	width: 100%;
+	display: flex;
+  }
+  
+ .deals__nav a {
+	text-decoration: none;
+  }
+
+  .deals__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+  }
+  
+  .deals__header__content .section__header {
+	max-width: 450px;
+	margin-bottom: 1rem;
+	text-align: left;
+  }
+  
+  .deals__header__content p {
+	max-width: 500px;
+	color: #e7eff9;
+  }
+  
+  .deals__nav {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+  }
+  
+  .deals__nav a {
+	padding: 5px 0;
+	font-weight: 700;
+	white-space: nowrap;
+	color:#f7f8fb;
+	border-bottom: 2px solid transparent;
+	transition: 0.3s;
+  }
+  
+  .deals__nav a:hover,
+  .deals__nav a.active {
+	color:#f95a47;
+	border-color: #f95a47;
+  }
+  
+  .deals__grid {
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+	border-color: #eee;
+  }
+  
+  .deals__card {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	border-color: #eee;
+  }
+  
+  .deals__card img {
+	border-radius: 10px;
+	transition: 0.3s;
+	border: 5px solid #636363;
+
+  }
+  
+  .deals__card:hover img {
+	scale: 1.1;
+  }
+  
+  .deals__card span {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	padding: 0.5rem 1rem;
+	font-size: 0.9rem;
+	color: var(--white);
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px solid var(--white);
+	border-radius: 5px;
+  }
+
+.states-area{
+	background-image: url(img/bgb.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 1;
+	height: 36vh;
+}
+.states-area::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(10, 0, 0, 0.614);
+	z-index: -1;
+}
+.single-stats{
+	color: #fff;
+	text-align: center;
+}
+.single-stats i{
+	margin-bottom: 25px;
+}
+.single-stats h2{
+	font-weight: bold;
+	font-size: 50px;
+}
+.single-stats p{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+
+.awrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+	height: 100%; 
+}
+.bg-1{
+    flex: 1;
+    background-color: #0b0b0b;
+}
+
+.about-container{
+    width: 80%;
+    min-height: 60vh;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.image-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 600px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.text-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 22px;
+}
+.text-container h1{
+    font-size: 45px;
+}
+.text-container p{
+    font-size: 20px;
+}
+
+.feature-item{
+	color: #000;
+	font-size: 20px;
+}
+.feature-list{
+	display: grid;
+	gap: 12px;
+}
+.feature-item{
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.feature-icon{
+	color: #000;
+	font-size: 10px;
+}
+
+
+.social-icn{
+    display: grid;
+    place-content: center;
+}
+
+.social-container{
+    display: inline-flex;
+}
+
+.social-container .icn{
+    margin:10px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.267, 1.55);
+	bottom: 10px;
+}
+
+.social-container .icn span{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: rgb(201, 198, 199);
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgb(20, 19, 19);
+}
+
+.social-container .icn span:hover i{
+    transform: translate(0, 5px);
+    color: #fff;
+}
+
+.social-container .icn span i{
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(8, 8, 8);
+}
+
+.social-container .icn .tool{
+    position: absolute;
+    top: 0;
+    background: #eee;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.267, 1.55);
+}
+
+.social-container .icn:hover .tool{
+    top: -70px;
+    opacity: 1;
+    pointer-events:auto;
+	
+}
+
+.social-container .icn .tool::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #eee;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.267, 1.55);
+}
+
+.social-container .instagram:hover span,
+.social-container .instagram:hover .tool{
+    background:rgb(228, 64, 95);
+    color: #fff;
+}
+.social-container .instagram:hover .tool::before{
+    background:rgb(228, 64, 95);
+}
+
+.social-container .twitter:hover span,
+.social-container .twitter:hover .tool{
+    background:rgb(29, 161, 242);
+    color: #fff;
+}
+.social-container .twitter:hover .tool::before{
+    background:rgb(29, 161, 242);
+}
+
+.social-container .facebook:hover span,
+.social-container .facebook:hover .tool{
+    background:rgb(20, 107, 221);
+    color: #fff;
+}
+.social-container .facebook:hover .tool::before{
+    background:rgb(20, 107, 221);
+}
+
+.social-container .linkedin:hover span,
+.social-container .linkedin:hover .tool{
+    background:rgb(2, 67, 132);
+    color: #fff;
+}
+.social-container .linkedin:hover .tool::before{
+    background:rgb(2, 67, 132);
+}
